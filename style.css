@@ -53,7 +53,7 @@ header {
 header:after {
 	display: block;
 	content: '';
-	background-image: url(/assets/img/counter-small.jpg);
+	background-image: url(./assets/img/counter-small.jpg);
 	height: 100px;
 	width: 100%;
 	box-shadow: 0px -50px 60px #f9ebe0;
