@@ -170,7 +170,7 @@ header .navigation:after {
 	content: '';
 	box-shadow: 0 18px 16px -7px rgba(19, 19, 19, 0.208);
 	border-radius: 5px;
-	height: 30px;
+	height: 20px;
 	width: 100%;
 	/*  */
 	background-color: #fe814733;
@@ -280,12 +280,16 @@ footer {
 	.btn {
 		padding: 15px 30px;
 	}
+
 	header {
 		display: flex;
 		flex-flow: column wrap;
 		align-items: center;
 	}
 
+  header .navigation:after {
+    height:30px;
+  }
   header .navigation .nav-links {
     margin-top:none;
   }
@@ -341,6 +345,9 @@ footer {
 	.btn {
 		padding: 15px 50px;
 	}
+  .btn-dish {
+font-size:1em;
+  }
 	header .navigation .nav-links {
 		flex: 4;
 	}
