@@ -5,50 +5,58 @@
 	align-items: center;
 	flex-flow: column wrap;
 	/* Styling */
-	background-color: #fff;
-	border: 2px solid rgba(160, 160, 160, 0.089);
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
+	background-color: #f3f8fd;
+	border-right-color: #e3ecf6;
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-bottom-color: #e3ecf6;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-left-color: #e3ecf6;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 	height: 50px;
 	width: 40px;
-	box-shadow: 0px 2px 5px rgb(26 26 26 / 9%);
-	/*  */
-	/* transition: all 0.15s ease; */
+  box-shadow: inset -6px -7px 19px #dcf6fcad;
 }
 
-/* .pantry-item:hover {
-	transform: translateY(-5px);
-	transition: all 0.15s ease;
-} */
-
-
 .pantry-item-top {
-	height: 7px;
-	width: 45px;
+	height: 4px;
+	width: 36px;
 	position: absolute;
-	top: -6px;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	background-color: #fcc048;
-
-	/*  */
+	top: -2px;
+	background-color: #f3f8fd;
+	border-right-color: #e3ecf6;
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-left-color: #e3ecf6;
+	border-left-style: solid;
+	border-left-width: 3px;
 	display: flex;
 	justify-content: center;
+  /*  */
+  flex-flow:column nowrap;
+  align-content: center;
+  align-items: center;
 }
 
 .pantry-item-top:before {
 	content: '';
-	display: block;
-	height: 7px;
-	width: 10px;
+	/* display: block; */
+	height: 5px;
+	min-width: 36px;
 	position: relative;
-	top: -7px;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+	top: -4px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 	background-color: #efb032;
+	border-bottom: 2px solid #dba02c;
 }
+
 
 /*  */
 
@@ -60,11 +68,11 @@
 
 	.pantry-item-top {
 		height: 7px;
-		width: 45px;
+		width: 36px;
 	}
 
 	.pantry-item-top:before {
-		height: 7px;
-		width: 15px;
+		min-height: 5px;
+		min-width: 38px;
 	}
 }
