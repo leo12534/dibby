@@ -31,9 +31,25 @@ html {
 	background-color: #fbf9fc;
 	position: relative;
 	color: #000;
+  margin:0 .5em;
 }
 
 .btn-dish:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	z-index: 9999;
+	display: block;
+	border: 1px solid #e9d1fa4f;
+	background-color: #dcb4f9;
+	height: 10px;
+	width: 110%;
+	left: -5%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+/* .btn-dish:before {
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -46,7 +62,7 @@ html {
 	left: -10%;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-}
+} */
 
 .btn-dish:hover {
 	background-color: #801ec6;
@@ -214,7 +230,6 @@ header #hero .hero-content {
 
 header #hero .nav-icons {
 	display: flex;
-	/* border:1px solid red; */
 	justify-content: space-evenly;
 	position: relative;
 	bottom: -4vh;
