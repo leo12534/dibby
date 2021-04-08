@@ -228,12 +228,13 @@ header .navigation .nav-icons {
 
 /* Hero Content */
 header div#hero {
-	min-height: 30vh;
+	min-height: 20vh;
 	height: 100%;
 
 	/* Flex Stuff */
 	display: flex;
 	align-items: flex-end;
+	margin-top: 3em;
 }
 
 header #hero .hero-content {
@@ -338,6 +339,8 @@ footer {
 
 	header div#hero {
 		align-items: center;
+    min-height:30vh;
+    margin-top:0;
 	}
 }
 
