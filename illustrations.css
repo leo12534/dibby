@@ -25,10 +25,10 @@
 }
 
 .pantry-item-top {
-	height: 4px;
-	width: 36px;
+	height: 8px;
+	width: 29px;
 	position: absolute;
-	top: -2px;
+	top: -7px;
 	background-color: #f3f8fd;
 	border-right-color: #e3ecf6;
 	border-right-style: solid;
@@ -39,16 +39,16 @@
 	display: flex;
 	justify-content: center;
   /*  */
-  flex-flow:column nowrap;
-  align-content: center;
-  align-items: center;
+	flex-flow:column nowrap;
+	align-content: center;
+	align-items: center;
 }
 
 .pantry-item-top:before {
 	content: '';
 	/* display: block; */
 	height: 5px;
-	min-width: 36px;
+	min-width: 30px;
 	position: relative;
 	top: -4px;
 	border-top-left-radius: 3px;

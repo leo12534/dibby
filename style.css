@@ -12,16 +12,6 @@ html {
 
 /* Defaults  */
 
-/* .btn {
-	padding: 10px 25px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: 600;
-} */
-
 .btn {
 	padding: 10px 15px;
 	border-top-left-radius: 5px;
@@ -60,21 +50,6 @@ html {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
-
-/* .btn-dish:before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	z-index: 9999;
-	display: block;
-	border: 1px solid #e9d1fa4f;
-	background-color: #dcb4f9;
-	height: 10px;
-	width: 120%;
-	left: -10%;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-} */
 
 .btn-dish:hover {
 	background-color: #801ec6;
@@ -143,20 +118,6 @@ header:after {
 }
 
 /* NAVIGATION */
-/* Order Of Navigation Items On Mobile */
-header .navigation > * {
-	order: 0;
-}
-header .navigation #logo {
-	order: -2;
-}
-header .navigation .nav-links {
-	order: 0;
-}
-header .navigation .nav-icons {
-	order: -1;
-}
-
 header .navigation {
 	/* Flex Shit */
 	display: flex;
@@ -185,7 +146,6 @@ header .navigation nav {
 header .navigation #logo svg {
 	min-width: 100%;
 	width: 120px;
-
 }
 
 header .navigation .nav-links {
@@ -197,7 +157,6 @@ header .navigation .nav-icons {
 }
 
 /* Nav Social Icons - Far Right  */
-
 /* Dotted Label Styling */
 .hover-primary .icon {
 	width: 30px;
