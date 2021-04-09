@@ -24,19 +24,20 @@
 .pantry-item-top {
   /* Flex */
   display: flex;
-	justify-content: center;
-	flex-flow:column nowrap;
-	align-content: center;
-	align-items: center;
+  justify-content: center;
+  flex-flow:column nowrap;
+  align-content: center;
+  align-items: center;
   /* Positioning & Sizing */
   height: 8px;
-	width: 39px;
-	position: absolute;
-	top: -7px;
+  width: 39px;
+  position: absolute;
+  top: -5px;
   /* Styling */
-	background-color: #f3f8fd;
-  border-right: 3px solid #e3ecf6;
-  border-left: 3px solid #e3ecf6;
+  box-shadow: inset -2px 6px 5px 0px #e4eaf2;
+  background-color: #f3f8fd;
+  border-right: 1px solid #e3ecf6;
+  border-left: 1px solid #e3ecf6;
 }
 
 .pantry-item-top:before {
@@ -52,6 +53,28 @@
 	background-color: #efb032;
 	border-bottom: 2px solid #dba02c;
 }
+
+/*  */
+
+.wood-pegs {
+display:flex;
+flex-flow:row wrap;
+justify-content: space-evenly;
+
+}
+.wood-peg-left, .wood-peg-right {
+  height: 30px;
+  width: 30px;
+  background-color: #fbd2be;
+  clip-path: polygon(100% 100%, 64% 100%, 42% 0, 100% 0);
+  box-shadow: inset -2px -1px 0px 0px #efb0334d;
+  border-top: 3px solid #f1b38c;
+}
+
+.wood-peg-left {
+  transform: rotateY(180deg);
+}
+
 
 
 @media (min-width: 768px) {

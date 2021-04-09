@@ -20,7 +20,6 @@ html {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 600;
-
 }
 
 .btn-primary {
@@ -31,9 +30,33 @@ html {
 .btn-dish {
 	background-color: #fbf9fc;
 	position: relative;
-	color: #000;
-  font-size:.9em;
-  margin:0 5px;
+	color: #3e1758;
+	font-size: 0.9em;
+	text-shadow: -1px -1px 0px #f1deff;
+	margin: 0 5px;
+	box-shadow: inset -6px -7px 19px #dcf6fcad, 0px 1px 11px 2px #f7d3c3;
+}
+
+.btn-dish:after {
+	content: '';
+	position: absolute;
+	top: -8px;
+	left: 45%;
+	right: 45%;
+	background-color: #dcb4f9;
+	height: 8px;
+	width: 10%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-right: 1px solid #daadfa;
+	border-top: 1px solid #daadfa;
+	border-left: 1px solid #daadfa;
+}
+.btn-dish:hover:after {
+	background-color: #daa5ff;
+}
+.btn-dish:hover:before {
+	background-color: #dcb4f9;
 }
 
 .btn-dish:before {
@@ -49,11 +72,14 @@ html {
 	left: -5%;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+	border: 1px solid #daaefa;
 }
 
 .btn-dish:hover {
-	background-color: #801ec6;
+	background-color: #ab48f1;
 	color: #fff;
+	text-shadow: none;
+	box-shadow: inset 3px -5px 8px 0px #8f35ce;
 }
 
 /* Utilities */
@@ -129,7 +155,7 @@ header .navigation {
 header .navigation:after {
 	display: block;
 	content: '';
-	box-shadow: 0 18px 16px -7px rgba(19, 19, 19, 0.208);
+	box-shadow: 0px 6px 16px -7px rgb(19 19 19 / 21%);
 	border-radius: 5px;
 	height: 20px;
 	width: 100%;
@@ -149,7 +175,7 @@ header .navigation #logo svg {
 }
 
 header .navigation .nav-links {
-	margin-top:.75em;
+	margin-top: 0.75em;
 }
 
 header .navigation .nav-icons {
@@ -169,13 +195,13 @@ header .navigation .nav-icons {
 }
 
 .pantry-item:hover {
-  box-shadow: rgb(20 6 30 / 15%) -1px 2px 20px 0px;
+	box-shadow: rgb(20 6 30 / 15%) -1px 2px 20px 0px;
 }
 
 /* On Hover Dotted Label Styling */
 .hover-primary:hover .pantry-item-top:before {
 	background-color: #ab48f1;
-	transform: translate(0, -3px);
+	transform: translate(0, -5px);
 	border-bottom: 2px solid #7f27be;
 }
 
@@ -185,7 +211,6 @@ header .navigation .nav-icons {
 	stroke: #ab48f1;
 }
 /* On Hover Pantry Item Box Shadow  */
-
 
 /* Hero Content */
 header div#hero {
@@ -249,17 +274,17 @@ footer {
 		align-items: center;
 	}
 
-  header .navigation:after {
-    height:30px;
-  }
-  header .navigation .nav-links {
-    margin-top:none;
-  }
+	header .navigation:after {
+		height: 30px;
+	}
+	header .navigation .nav-links {
+		margin-top: none;
+	}
 
-  .hover-primary .icon {
-    width: 35px;
-    height: 35px;
-  }
+	.hover-primary .icon {
+		width: 35px;
+		height: 35px;
+	}
 
 	header .navigation .nav-icons {
 		display: flex;
@@ -305,8 +330,8 @@ footer {
 
 	header div#hero {
 		align-items: center;
-    min-height:30vh;
-    margin-top:0;
+		min-height: 30vh;
+		margin-top: 0;
 	}
 }
 
@@ -314,9 +339,9 @@ footer {
 	.btn {
 		padding: 15px 50px;
 	}
-  .btn-dish {
-font-size:1em;
-  }
+	.btn-dish {
+		font-size: 1em;
+	}
 	header .navigation .nav-links {
 		flex: 4;
 	}
