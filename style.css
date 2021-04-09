@@ -159,13 +159,17 @@ header .navigation .nav-icons {
 /* Nav Social Icons - Far Right  */
 /* Dotted Label Styling */
 .hover-primary .icon {
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	background-color: #fde6db;
-	padding: 1px;
+	padding: 5px;
 	border-radius: 5px;
 	border: 2px dashed #ecc689;
 	stroke: #c7896b;
+}
+
+.pantry-item:hover {
+  box-shadow: rgb(20 6 30 / 15%) -1px 2px 20px 0px;
 }
 
 /* On Hover Dotted Label Styling */
@@ -181,9 +185,7 @@ header .navigation .nav-icons {
 	stroke: #ab48f1;
 }
 /* On Hover Pantry Item Box Shadow  */
-.pantry-item:hover {
-	box-shadow: 4px 5px 0px 0px #dcb4f93b;
-}
+
 
 /* Hero Content */
 header div#hero {
@@ -252,6 +254,11 @@ footer {
   }
   header .navigation .nav-links {
     margin-top:none;
+  }
+
+  .hover-primary .icon {
+    width: 35px;
+    height: 35px;
   }
 
 	header .navigation .nav-icons {
