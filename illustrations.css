@@ -65,10 +65,10 @@ justify-content: space-evenly;
 .wood-peg-left, .wood-peg-right {
   height: 30px;
   width: 30px;
-  background-color: #fbd2be;
+  background-color: #fedcbe;
   clip-path: polygon(100% 100%, 64% 100%, 42% 0, 100% 0);
   box-shadow: inset -2px -1px 0px 0px #efb0334d;
-  border-top: 3px solid #f1b38c;
+  border-top: 3px solid #d59e58;
 }
 
 .wood-peg-left {

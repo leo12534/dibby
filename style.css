@@ -137,7 +137,7 @@ header {
 header:after {
 	display: block;
 	content: '';
-	background-image: url(./assets/img/counter-small.jpg);
+	background-image: url(./assets/img/counter-small-b.jpg);
 	height: 100px;
 	width: 100%;
 	box-shadow: 0px -50px 60px #f9ebe0;
@@ -160,7 +160,7 @@ header .navigation:after {
 	height: 20px;
 	width: 100%;
 	/*  */
-	background-color: #fe814733;
+	background-color: #fec64733;
 }
 header .navigation nav {
 	/* Flex Stuff */
@@ -172,6 +172,9 @@ header .navigation nav {
 header .navigation #logo svg {
 	min-width: 100%;
 	width: 120px;
+  /*  */
+	transform: rotate(355deg);
+	padding-bottom: .5em;
 }
 
 header .navigation .nav-links {
@@ -251,7 +254,7 @@ header #hero .hero-content h2 {
 }
 
 section#main-content {
-	background-color: lightslategray;
+  background-color:red;
 	height: 100%;
 }
 
@@ -273,6 +276,11 @@ footer {
 		flex-flow: column wrap;
 		align-items: center;
 	}
+
+header .navigation #logo svg {
+	transform: none;
+    padding-bottom: 0;
+}
 
 	header .navigation:after {
 		height: 30px;
